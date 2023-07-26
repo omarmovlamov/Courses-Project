@@ -1,0 +1,40 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus libero nemo minus,repellendus pariatur accusa ntium?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus libero nemo minus,repellendus pariatur accusantium?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus libero nemo minus,repellendus pariatur accusantium?",
+      "title": "Angular",
+      "price": 50
+    },
+    {
+      "id": 2,
+      "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus libero nemo minus,repellendus pariatur accusantium?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus libero nemo minus,repellendus pariatur accusantium?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus libero nemo minus,repellendus pariatur accusantium?",
+      "title": "React",
+      "price": 50
+    },
+    {
+      "id": 3,
+      "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus libero nemo minus,repellendus pariatur accusantium?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus libero nemo minus,repellendus pariatur accusantium?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus libero nemo minus,repellendus pariatur accusantium?",
+      "title": "Vue",
+      "price": 50
+    },
+    {
+      "id": 4,
+      "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus libero nemo minus,repellendus pariatur accusantium?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus libero nemo minus,repellendus pariatur accusantium?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus libero nemo minus,repellendus pariatur accusantium?",
+      "title": "Css",
+      "price": 80
+    },
+    {
+      "id": 5,
+      "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus libero nemo minus,repellendus pariatur accusantium?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus libero nemo minus,repellendus pariatur accusantium?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus libero nemo minus,repellendus pariatur accusantium?",
+      "title": "Java",
+      "price": 120
+    },
+    {
+      "id": 6,
+      "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus libero nemo minus,repellendus pariatur accusantium?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus libero nemo minus,repellendus pariatur accusantium?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus libero nemo minus,repellendus pariatur accusantium?",
+      "title": "Html",
+      "price": 0
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background: rgb(244, 255, 193);
+  background: linear-gradient(
+    0deg,
+    rgba(244, 255, 193, 1) 0%,
+    rgba(255, 225, 161, 1) 100%
+  );
+  background-attachment: fixed;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Courses {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Courses div h1 {
+  user-select: none;
+  border-bottom: 3px solid black;
+  color: #fff;
+  font-weight: 800;
+  text-shadow: 2px 2px 20px black;
+  transform: scale(1);
+  transition: 0.4s ease-in;
+  letter-spacing: 1.5px;
+}
+.Courses div h1:hover {
+  padding: 10px;
+  border: 2px solid rgba(255, 255, 255, 0.384);
+  border-radius: 15px;
+  transform: scale(1.1);
+  color: black;
+}
+.Courses div h1 span {
+  color: black;
+}
+.courses-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 20px;
+}
+.Card {
+  background-color: #fff;
+  border: 1px solid black;
+  border-radius: 20px;
+  width: 350px;
+  margin: 10px 0;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0px 0px 2em black;
+  transform: scale(1);
+  transition: 0.4s ease-in transform;
+}
+.Card:hover {
+  transform: scale(1.1);
+}
+.Card button {
+  user-select: none;
+  width: 60px;
+  height: 35px;
+  margin-top: 10px;
+  background-color: red;
+  color: white;
+  border: 0;
+  border-radius: 20px;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 0 10px black;
+  transform: scale(1);
+  transition: 0.4s ease-in transform;
+}
+.Card button:hover {
+  border: 1px solid red;
+  color: red;
+  background-color: #fff;
+  transform: scale(1.1);
+}
+.card-title {
+  text-align: center;
+}
+.card-title p {
+  font-weight: 600;
+  color: rgb(89, 0, 255);
+}
+#refresh-button {
+  margin-top: 50px;
+  width: 160px;
+  height: 50px;
+  background-color: rgb(15, 161, 1);
+  color: white;
+  border: 0;
+  border-radius: 20px;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 0 10px black;
+  transform: scale(1);
+  transition: 0.4s ease-in transform;
+}
+#refresh-button:hover {
+  border: 1px solid rgb(15, 161, 1);
+  color: rgb(15, 161, 1);
+  background-color: #fff;
+  transform: scale(1.1);
+}
